@@ -47,6 +47,7 @@
 		99C160F419B569A900C3C86C /* MainInfomationUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C160F319B569A800C3C86C /* MainInfomationUITableViewCell.m */; };
 		99C160FA19B5881800C3C86C /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C160F919B5881800C3C86C /* ActivityTableViewCell.m */; };
 		99C160FC19B58C9200C3C86C /* activityDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C160FB19B58C9200C3C86C /* activityDefault.png */; };
+		99C1610019B5A2F300C3C86C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C160FF19B5A2F300C3C86C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +142,7 @@
 		99C160F819B5881800C3C86C /* ActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewCell.h; sourceTree = SOURCE_ROOT; };
 		99C160F919B5881800C3C86C /* ActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		99C160FB19B58C9200C3C86C /* activityDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activityDefault.png; sourceTree = SOURCE_ROOT; };
+		99C160FF19B5A2F300C3C86C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				99C1605619B55BB000C3C86C /* ASIHTTPRequest */,
 				9921926F19B474870078C5CC /* AppDelegate.swift */,
 				9921927419B4748C0078C5CC /* ViewController.swift */,
+				99C160FF19B5A2F300C3C86C /* DetailViewController.swift */,
 				99C160F219B569A800C3C86C /* MainInfomationUITableViewCell.h */,
 				99C160F319B569A800C3C86C /* MainInfomationUITableViewCell.m */,
 				99C1608619B55E8F00C3C86C /* MainViewController.h */,
@@ -488,6 +491,7 @@
 				99C1607619B55BD900C3C86C /* Reachability.m in Sources */,
 				99C160D019B5657600C3C86C /* NSString+SBJSON.m in Sources */,
 				99C1606F19B55BCF00C3C86C /* ASIDownloadCache.m in Sources */,
+				99C1610019B5A2F300C3C86C /* DetailViewController.swift in Sources */,
 				99C160CF19B5657600C3C86C /* NSObject+SBJSON.m in Sources */,
 				99C160CE19B5657600C3C86C /* JSONKit.m in Sources */,
 			);
