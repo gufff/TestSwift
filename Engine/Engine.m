@@ -48,7 +48,7 @@ static Engine* g_Engine = nil;
  * @return
  * @note
  */
--(void)asynchronousRequestWithUrl:(NSString *)url withTag:(NSInteger)tag {
+-(void)asynchronousRequestWithUrl:(NSString *)url withTag:(requestTag)tag {
     
     //构造NSUrl
     NSURL *requrl = [ NSURL URLWithString:[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
@@ -63,7 +63,7 @@ static Engine* g_Engine = nil;
     [request startAsynchronous];
 }
 
--(void)synchronousRequestWithUrl:(NSString *)url withTag:(NSInteger)tag {
+-(void)synchronousRequestWithUrl:(NSString *)url withTag:(requestTag)tag {
     
     //构造NSUrl
     NSURL *requrl = [ NSURL URLWithString:[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];

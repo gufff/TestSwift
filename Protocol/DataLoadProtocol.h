@@ -11,8 +11,8 @@
 @protocol DataLoadProtocol <NSObject>
 
 //@optional
--(void) dataLoadSuccess :(NSDictionary *) dataDic withTag:(NSInteger) tag;
+-(void) dataLoadSuccess :(NSDictionary *) dataDic withTag:(requestTag) tag;
 
--(void) dataLoadFail :(NSString *) errMessage withTag:(NSInteger) tag;
+-(void) dataLoadFail :(NSString *) errMessage withTag:(requestTag) tag;
 
 @end

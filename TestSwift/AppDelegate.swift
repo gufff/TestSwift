@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
 
         var nav = UINavigationController(rootViewController:ViewController());
+        UINavigationBar.appearance().barTintColor = UIColor(red: 97/255.0, green: 193/255.0, blue: 190/255.0, alpha: 1.0)
         var rect = UIScreen.mainScreen().bounds;
         self.window = UIWindow(frame: rect);
         self.window!.rootViewController = nav;

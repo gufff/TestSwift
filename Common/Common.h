@@ -159,7 +159,7 @@
 #define rootView [[[[[UIApplication sharedApplication] windows] objectAtIndex:0] rootViewController] view]
 
 // 请求类型
-typedef enum
+typedef NS_ENUM(NSInteger, requestTag)
 {
     requestTagWithLogin,
     requestTagWithSignup,
@@ -287,7 +287,7 @@ typedef enum
     requestTagGroupSendMessage,
     requestTagDownloadAdvertiseMentImage
     
-} requestType;
+} ;
 
 typedef enum
 {

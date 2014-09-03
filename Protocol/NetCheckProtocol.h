@@ -12,6 +12,6 @@
 
 @optional
 
-- (void)netcheckFail:(NSString *) failData withTag:(NSInteger) tag;
+- (void)netcheckFail:(NSString *) failData withTag:(requestTag) tag;
 
 @end

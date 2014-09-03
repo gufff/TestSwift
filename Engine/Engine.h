@@ -49,9 +49,9 @@
  * @return
  * @note
  */
--(void)asynchronousRequestWithUrl:(NSString *)url  withTag:(NSInteger) tag;
+-(void)asynchronousRequestWithUrl:(NSString *)url  withTag:(requestTag) tag;
 
--(void)synchronousRequestWithUrl:(NSString *)url  withTag:(NSInteger) tag;
+-(void)synchronousRequestWithUrl:(NSString *)url  withTag:(requestTag) tag;
 
 /**
  * @brief downloadImage

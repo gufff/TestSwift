@@ -19,3 +19,4 @@
 #import "NetCheckProtocol.h"
 #import "DataLoadProtocol.h"
 #import "ImageLoadProtocol.h"
+#import "Common.h"

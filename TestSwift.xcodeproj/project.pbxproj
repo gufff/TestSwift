@@ -12,6 +12,8 @@
 		9921927519B4748C0078C5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921927419B4748C0078C5CC /* ViewController.swift */; };
 		9921927A19B474930078C5CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9921927919B474930078C5CC /* Images.xcassets */; };
 		9921928619B474970078C5CC /* TestSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921928519B474970078C5CC /* TestSwiftTests.swift */; };
+		99990C3819B6A469007EB3D0 /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99990C3719B6A469007EB3D0 /* ActivityModel.swift */; };
+		99990C3A19B6AF44007EB3D0 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 99990C3919B6AF44007EB3D0 /* back.png */; };
 		99C1606C19B55BCF00C3C86C /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1605919B55BCF00C3C86C /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		99C1606D19B55BCF00C3C86C /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1605C19B55BCF00C3C86C /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		99C1606E19B55BCF00C3C86C /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1605E19B55BCF00C3C86C /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -70,6 +72,8 @@
 		9921927F19B474950078C5CC /* TestSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9921928419B474960078C5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9921928519B474970078C5CC /* TestSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftTests.swift; sourceTree = "<group>"; };
+		99990C3719B6A469007EB3D0 /* ActivityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		99990C3919B6AF44007EB3D0 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = SOURCE_ROOT; };
 		99C1605819B55BCF00C3C86C /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ASIHTTPRequest/ASIAuthenticationDialog.h; sourceTree = SOURCE_ROOT; };
 		99C1605919B55BCF00C3C86C /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = ASIHTTPRequest/ASIAuthenticationDialog.m; sourceTree = SOURCE_ROOT; };
 		99C1605A19B55BCF00C3C86C /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ASIHTTPRequest/ASICacheDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -205,6 +209,7 @@
 				99C1607E19B55C9D00C3C86C /* Protocol */,
 				99C1607D19B55C9200C3C86C /* Engine */,
 				99C1605619B55BB000C3C86C /* ASIHTTPRequest */,
+				99990C3719B6A469007EB3D0 /* ActivityModel.swift */,
 				9921926F19B474870078C5CC /* AppDelegate.swift */,
 				9921927419B4748C0078C5CC /* ViewController.swift */,
 				99C160FF19B5A2F300C3C86C /* DetailViewController.swift */,
@@ -213,6 +218,7 @@
 				99C1608619B55E8F00C3C86C /* MainViewController.h */,
 				99C1608719B55E8F00C3C86C /* MainViewController.m */,
 				99C160FB19B58C9200C3C86C /* activityDefault.png */,
+				99990C3919B6AF44007EB3D0 /* back.png */,
 				9921927919B474930078C5CC /* Images.xcassets */,
 				9921927119B4748A0078C5CC /* TestSwift.xcdatamodeld */,
 				9921926D19B474860078C5CC /* Supporting Files */,
@@ -447,6 +453,7 @@
 			files = (
 				99C160FC19B58C9200C3C86C /* activityDefault.png in Resources */,
 				9921927A19B474930078C5CC /* Images.xcassets in Resources */,
+				99990C3A19B6AF44007EB3D0 /* back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +481,7 @@
 				99C1607019B55BCF00C3C86C /* ASIFormDataRequest.m in Sources */,
 				99C1608119B55CA700C3C86C /* Engine.m in Sources */,
 				99C160E619B565C600C3C86C /* UIViewController+ContentLines.m in Sources */,
+				99990C3819B6A469007EB3D0 /* ActivityModel.swift in Sources */,
 				99C160D419B5657600C3C86C /* SBJsonWriter.m in Sources */,
 				99C160E319B565C600C3C86C /* GTMBase64.m in Sources */,
 				99C160E519B565C600C3C86C /* PromptView.m in Sources */,
